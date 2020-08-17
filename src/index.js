@@ -6,15 +6,23 @@ const last_name = "Lanoug";
 const sushi = "https://images.sweetauthoring.com/recipe/43926_2091.jpg";
 const random_img = "https://picsum.photos/100/100";
 
+const custom_style = {
+  color: "pink",
+  fontSize: "23px",
+  border: "1px solid pink"
+};
+
+custom_style.color = "yellow";
+
 ReactDOM.render(
   <>
     <h1 className="heading">Hello World !</h1>
-    <p>
+    <p style={{ color: "blue" }}>
       my name is {first_name} {last_name}
     </p>
     {/* <p>my name is {first_name + ' ' +last_name}</p> */}
     {/* <p>my name is {`${first_name} ${last_name}`}</p> */}
-    <p>my age is {40 + 3}</p>
+    <p style={custom_style}>my age is {40 + 3}</p>
     <div>
       <img
         className="food-image"
