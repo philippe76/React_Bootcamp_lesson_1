@@ -13,6 +13,8 @@ ReactDOM.render(
     {/* <p>my name is {first_name + ' ' +last_name}</p> */}
     {/* <p>my name is {`${first_name} ${last_name}`}</p> */}
     <p>my age is {40 + 3}</p>
+
+    <p>Copyright {new Date().getFullYear()}</p>
   </>,
   document.getElementById("root")
 );
