@@ -1,7 +1,13 @@
 const React = require("react");
 const ReactDOM = require("react-dom");
 
-ReactDOM.render(<h1>Hello World !</h1>, document.getElementById("root"));
+ReactDOM.render(
+  <>
+    <h1>Hello World !</h1>
+    <p>a new paragraph</p>
+  </>,
+  document.getElementById("root")
+);
 
 // let h1 = document.createElement("h1");
 // h1.innerHTML = "Hello React world !";
