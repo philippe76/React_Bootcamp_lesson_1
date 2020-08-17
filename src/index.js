@@ -1,5 +1,5 @@
-const React = require("react");
-const ReactDOM = require("react-dom");
+import React from "react";
+import ReactDOM from "react-dom";
 
 const first_name = "Filip";
 const last_name = "Lanoug";
